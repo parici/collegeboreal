@@ -5,7 +5,9 @@ import * as applicationSettings from "application-settings";
 
 @Component({
     selector: "create",
-    templateUrl: "./Component/create/create.html",
+    //rtalih modification 2/3
+    //templateUrl: "./Component/create/create.html",
+    templateUrl: "./components/create/create.html",
 })
 export class CreateComponent {
     private location: Location;
