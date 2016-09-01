@@ -7,6 +7,8 @@ import {nsProvideRouter} from "nativescript-angular/router";
 
 @Component({
     selector: "list",
+    //rtalih modification 1/3
+    //templateUrl: "./components/list/list.html",
     templateUrl: "./components/list/list.html",
 })
 export class ListComponent {
