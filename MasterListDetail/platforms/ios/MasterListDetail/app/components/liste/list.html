@@ -1,0 +1,11 @@
+<ActionBar title="Person List">
+<!--> (tap)= "create" <-->
+    <ActionItem text="Create"></ActionItem>
+</ActionBar>
+<GridLayout>
+    <ListView [items]="messageList"  >
+        <template let-item="item">
+            <Label [text]="item.titre" (tap)="detail(item)" ></Label>
+        </template>
+    </ListView>
+</GridLayout>
