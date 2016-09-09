@@ -10,16 +10,21 @@ import * as applicationSettings from "application-settings";
 export class ListComponent {
  
     router: Router;
-    personList: Array<HTMLButtonElement>;
-
+    
+    //messageList: Array<Object>;
     messageList: Array<Object>;
+
+    // les variables au bas furent ajoutees
+    //titre: string;
+    //description: string;
 
  
     constructor(router: Router, location: Location) {
+        this.router = router;
         this.messageList = JSON.parse(applicationSettings.getString("messageList", "[]"));
         this.messageList.push({titre: 'titre 1', description: 'description 1'});
         this.messageList.push({titre: 'titre 2', description: 'description 2'});
-        this.router = router;
+        
         //this.personList = JSON.parse(applicationSettings.getString("message", this.messageList));
         location.subscribe((path) => {
             this.messageList = JSON.parse(applicationSettings.getString("messageList", "[]"));
@@ -29,7 +34,7 @@ export class ListComponent {
     }
  
     detail(pArg) {
-        applicationSettings.setString("message", pArg);
+        //applicationSettings.setString("message", pArg);
         this.router.navigate(["/detail"])
     }
  

@@ -4,12 +4,15 @@ var common_1 = require("@angular/common");
 var router_1 = require("@angular/router");
 var applicationSettings = require("application-settings");
 var ListComponent = (function () {
+    // les variables au bas furent ajoutees
+    //titre: string;
+    //description: string;
     function ListComponent(router, location) {
         var _this = this;
+        this.router = router;
         this.messageList = JSON.parse(applicationSettings.getString("messageList", "[]"));
         this.messageList.push({ titre: 'titre 1', description: 'description 1' });
         this.messageList.push({ titre: 'titre 2', description: 'description 2' });
-        this.router = router;
         //this.personList = JSON.parse(applicationSettings.getString("message", this.messageList));
         location.subscribe(function (path) {
             _this.messageList = JSON.parse(applicationSettings.getString("messageList", "[]"));
@@ -18,7 +21,7 @@ var ListComponent = (function () {
         });
     }
     ListComponent.prototype.detail = function (pArg) {
-        applicationSettings.setString("message", pArg);
+        //applicationSettings.setString("message", pArg);
         this.router.navigate(["/detail"]);
     };
     ListComponent = __decorate([
