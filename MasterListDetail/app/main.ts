@@ -8,8 +8,8 @@ import {ListComponent} from "./components/liste/list.component";
 //import {CreateComponent} from "./components/create/create.component";
  
 export const AppRoutes: RouterConfig = [
-    { path: "", component: ListComponent }//,
-    //{ path: "create", component: CreateComponent }
+    { path: "", component: ListComponent },
+    { path: "details", component: DetailComponent }
 ]
  
 nativeScriptBootstrap(AppComponent, [[nsProvideRouter(AppRoutes, {})]]);

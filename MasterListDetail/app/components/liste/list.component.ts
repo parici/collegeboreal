@@ -2,6 +2,7 @@ import {Component} from "@angular/core";
 import {Location} from "@angular/common";
 import {Router} from "@angular/router";
 import * as applicationSettings from "application-settings";
+import {DetailComponent} from "../details/details.component";
 
 @Component({
     selector: "list",
@@ -11,13 +12,7 @@ export class ListComponent {
  
     router: Router;
     
-    //messageList: Array<Object>;
     messageList: Array<Object>;
-
-    // les variables au bas furent ajoutees
-    //titre: string;
-    //description: string;
-
  
     constructor(router: Router, location: Location) {
         this.router = router;
@@ -34,8 +29,9 @@ export class ListComponent {
     }
  
     detail(pArg) {
-        //applicationSettings.setString("message", pArg);
-        this.router.navigate(["/detail"])
+        applicationSettings.setString("message", pArg);
+        this.router.navigate(["../details/detail.components.ts"])
+        //this.router.navigate(["/details/details.component/DetailComponent"]);
     }
  
 }
