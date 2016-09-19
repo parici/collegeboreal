@@ -27,11 +27,9 @@ export class ListComponent {
             this.messageList.push({titre: 'titre 2', description: 'description 2'});
         });
     }
- 
     detail(pArg) {
         applicationSettings.setString("message", pArg);
-        this.router.navigate(["../details/detail.components.ts"])
+        this.router.navigate(['/details']);
         //this.router.navigate(["/details/details.component/DetailComponent"]);
     }
- 
 }
