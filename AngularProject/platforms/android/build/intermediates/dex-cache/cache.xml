@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-23.4.0_eaff0558529e7c30ad479bafcd03b97de0d92aec.jar" />
+    </item>
+    <item
+        jar="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/exploded-aar/AngularProject/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="736a019270b8fb0fda4532f90fc9d1a7458022c0">
+        <dex dex="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/pre-dexed/F0/debug/binding-generator_328715269f7ac8ab82e426323dd2d2802d2818bd.jar" />
+    </item>
+    <item
+        jar="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-23.4.0_2c93b55056208a34972bc7572b43c0f8b5f50518.jar" />
+    </item>
+    <item
+        jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-23.4.0_cff744a20a183c3ee3bde7040286b1eb5bb3626e.jar" />
+    </item>
+    <item
+        jar="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/exploded-aar/AngularProject/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="60fb0eb96d073a4a1d71095f8e16dbb6ff73681c">
+        <dex dex="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/pre-dexed/F0/debug/AngularProject-runtime-unspecified_205b02ce8d78a859dd13bd58bddd63d237391f9d.jar" />
+    </item>
+    <item
+        jar="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/pre-dexed/F0/debug/internal_impl-23.4.0_a404c0c695a2fbb7eacd50b853716d103359eee5.jar" />
+    </item>
+    <item
+        jar="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="89f0a1f737477abeda61c0072529d5158b1ebe81">
+        <dex dex="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_61aa5bbc3c541c30bf351c1cc0064ca48b02014f.jar" />
+    </item>
+    <item
+        jar="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-23.4.0_fff81970a010cf9d5ed471f3704dc457eb0d73f6.jar" />
+    </item>
+    <item
+        jar="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/300096005/Desktop/AngularProject/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-23.4.0_b08d13be57398e6e1a0d59cdeb6d5269792d0609.jar" />
+    </item>
+
+</items>
