@@ -4,9 +4,6 @@ var common_1 = require("@angular/common");
 var router_1 = require("@angular/router");
 var applicationSettings = require("application-settings");
 var ListComponent = (function () {
-    // les variables au bas furent ajoutees
-    //titre: string;
-    //description: string;
     function ListComponent(router, location) {
         var _this = this;
         this.router = router;
@@ -21,8 +18,9 @@ var ListComponent = (function () {
         });
     }
     ListComponent.prototype.detail = function (pArg) {
-        //applicationSettings.setString("message", pArg);
-        this.router.navigate(["/detail"]);
+        applicationSettings.setString("message", pArg);
+        this.router.navigate(['/details']);
+        //this.router.navigate(["/details/details.component/DetailComponent"]);
     };
     ListComponent = __decorate([
         core_1.Component({

@@ -22,4 +22,18 @@ var DetailComponent = (function () {
     return DetailComponent;
 }());
 exports.DetailComponent = DetailComponent;
+/*public leDetail(){
+        this.titre = "ceci est le titre";
+        this.description = "La description est la suivante"
+    }
+*
+}*/
+/*save() {
+    if(this.titre != "" && this.description != "") {
+        var message: Array<Object> = JSON.parse(applicationSettings.getString("message", "[]"));
+        message.push({titre: this.titre, description: this.description});
+        applicationSettings.setString("message", JSON.stringify(message));
+        this.location.back();
+    }
+}*/ 
 //# sourceMappingURL=details.component.js.map

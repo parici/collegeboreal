@@ -9,7 +9,8 @@ import {ListComponent} from "./components/liste/list.component";
  
 export const AppRoutes: RouterConfig = [
     { path: "", component: ListComponent }//,
-    //{ path: "create", component: CreateComponent }
+    //il ne peut pas trouver la classe DetailComponent car je pense que la route n'est bonne 
+    //{ path: "../details/", component: DetailComponent}
 ]
  
 nativeScriptBootstrap(AppComponent, [[nsProvideRouter(AppRoutes, {})]]);
