@@ -6,7 +6,7 @@ var AppComponent = (function () {
     }
     AppComponent = __decorate([
         core_1.Component({
-            selector: "my-app",
+            selector: "main",
             directives: [router_1.NS_ROUTER_DIRECTIVES],
             template: "<page-router-outlet></page-router-outlet>"
         }), 

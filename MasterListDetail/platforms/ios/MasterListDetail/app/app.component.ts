@@ -3,7 +3,7 @@ import {NS_ROUTER_DIRECTIVES} from "nativescript-angular/router";
 
 
 @Component({
-    selector: "my-app",
+    selector: "main",
     directives: [NS_ROUTER_DIRECTIVES],
     template: "<page-router-outlet></page-router-outlet>"
 })
