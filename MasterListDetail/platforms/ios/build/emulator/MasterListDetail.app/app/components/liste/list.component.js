@@ -18,8 +18,10 @@ var ListComponent = (function () {
         });
     }
     ListComponent.prototype.detail = function (pArg) {
-        applicationSettings.setString("message", pArg);
-        this.router.navigate(['/details']);
+        var link = ['/details'];
+        this.router.navigate(link);
+        //applicationSettings.setString("message", pArg);
+        //this.router.navigate(['/details']);
         //this.router.navigate(["/details/details.component/DetailComponent"]);
     };
     ListComponent = __decorate([
