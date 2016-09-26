@@ -8,13 +8,15 @@ import {DetailComponent} from "../details/details.component";
     selector: "list",
     templateUrl: "./components/liste/list.html",
 })
-export class ListComponent {
+export class ListComponent 
+{
  
     router: Router;
     
     messageList: Array<Object>;
  
-    constructor(router: Router, location: Location) {
+    constructor(router: Router, location: Location) 
+    {
         this.router = router;
         this.messageList = JSON.parse(applicationSettings.getString("messageList", "[]"));
         this.messageList.push({titre: 'titre 1', description: 'description 1'});
@@ -27,9 +29,12 @@ export class ListComponent {
             this.messageList.push({titre: 'titre 2', description: 'description 2'});
         });
     }
-    detail(pArg) {
-        applicationSettings.setString("message", pArg);
-        this.router.navigate(['/details']);
+    detail(pArg) 
+    {
+        let link =['/details'];
+        this.router.navigate(link);
+        //applicationSettings.setString("message", pArg);
+        //this.router.navigate(['/details']);
         //this.router.navigate(["/details/details.component/DetailComponent"]);
     }
 }

@@ -12,6 +12,10 @@ var DetailComponent = (function () {
         this.titre = messageList[0]["titre"];
         this.description = messageList[0]["description"];
     }
+    DetailComponent.prototype.leDetail = function () {
+        this.titre = "ceci est le titre";
+        this.description = "La description est la suivante";
+    };
     DetailComponent = __decorate([
         core_1.Component({
             selector: "detail",
@@ -22,12 +26,6 @@ var DetailComponent = (function () {
     return DetailComponent;
 }());
 exports.DetailComponent = DetailComponent;
-/*public leDetail(){
-        this.titre = "ceci est le titre";
-        this.description = "La description est la suivante"
-    }
-*
-}*/
 /*save() {
     if(this.titre != "" && this.description != "") {
         var message: Array<Object> = JSON.parse(applicationSettings.getString("message", "[]"));

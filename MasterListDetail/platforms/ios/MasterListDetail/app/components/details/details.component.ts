@@ -1,5 +1,6 @@
 import {Component} from "@angular/core";
 import {Location} from "@angular/common";
+import {Router} from "@angular/router";
 import * as applicationSettings from "application-settings";
 import {ListComponent} from "../liste/list.component";
  
@@ -23,14 +24,14 @@ export class DetailComponent {
         this.titre = messageList[0]["titre"];
         this.description = messageList[0]["description"];
     }
-}
 
-    /*public leDetail(){
+
+    public leDetail(){
             this.titre = "ceci est le titre";
             this.description = "La description est la suivante"
         }
-*
-    }*/
+
+    }
     /*save() {
         if(this.titre != "" && this.description != "") {
             var message: Array<Object> = JSON.parse(applicationSettings.getString("message", "[]"));
