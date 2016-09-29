@@ -1,7 +1,7 @@
 "use strict";
 var router_1 = require("nativescript-angular/router");
-var list_component_1 = require("./components/liste/list.component");
-var details_component_1 = require("./components/details/details.component");
+var list_component_1 = require("./liste/list.component");
+var details_component_1 = require("./details/details.component");
 exports.routes = [
     { path: "", component: list_component_1.ListComponent },
     { path: "details", component: details_component_1.DetailComponent }

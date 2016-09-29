@@ -6,8 +6,8 @@ import {APP_ROUTER_PROVIDERS} from "./AppRoute"
 import {RouterConfig} from "@angular/router";
 import {AppComponent} from "./app.component";
  
-import {ListComponent} from "./components/liste/list.component";
-import {DetailComponent} from "./components/details/details.component";
+import {ListComponent} from "./liste/list.component";
+import {DetailComponent} from "./details/details.component";
 //import {CreateComponent} from "./components/create/create.component";
  
 /*export const AppRoutes: RouterConfig = [
